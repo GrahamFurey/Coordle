@@ -1,0 +1,1297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF159F7E27F4D334009C2CD1 /* Pods_CoordleGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F64F86B8D1052C13EE356C4 /* Pods_CoordleGame.framework */; };
+		AF159F8227F51DA9009C2CD1 /* OpenAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF159F8127F51DA9009C2CD1 /* OpenAd.swift */; };
+		AF159F8727F566D8009C2CD1 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AF159F8627F566D8009C2CD1 /* ConfettiSwiftUI */; };
+		AF2A0FDD27F6869D0035BD68 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A0FDC27F6869D0035BD68 /* Settings.swift */; };
+		AF2A0FE027F6AFB20035BD68 /* DarkModeSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A0FDF27F6AFB20035BD68 /* DarkModeSwitch.swift */; };
+		AF2B55EA27FAFA2C004A495F /* TextShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B55E927FAFA2C004A495F /* TextShimmer.swift */; };
+		AF2B55ED27FB008F004A495F /* RollingNumberAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B55EC27FB008F004A495F /* RollingNumberAnimation.swift */; };
+		AF3578A02808DE72009A1AC7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AF35789F2808DE72009A1AC7 /* FirebaseAuth */; };
+		AF3578A52808DEF7009A1AC7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AF3578A42808DEF7009A1AC7 /* FirebaseAnalytics */; };
+		AF3578A72808E2CA009A1AC7 /* VerifySMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3578A62808E2CA009A1AC7 /* VerifySMS.swift */; };
+		AF3578A92808EDC6009A1AC7 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3578A82808EDC6009A1AC7 /* LoginViewModel.swift */; };
+		AF3578AB2808FE68009A1AC7 /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3578AA2808FE68009A1AC7 /* NumberPad.swift */; };
+		AF3578AD280912AE009A1AC7 /* FavoriteColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3578AC280912AD009A1AC7 /* FavoriteColor.swift */; };
+		AF3578AF28091495009A1AC7 /* Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3578AE28091495009A1AC7 /* Introduction.swift */; };
+		AF3578B128091D72009A1AC7 /* ChooseUsername.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3578B028091D72009A1AC7 /* ChooseUsername.swift */; };
+		AF3578B428092ED0009A1AC7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AF3578B328092ED0009A1AC7 /* FirebaseFirestore */; };
+		AF3578B8280932C9009A1AC7 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3578B7280932C9009A1AC7 /* Rank.swift */; };
+		AF3578BC28096D3C009A1AC7 /* HorizontalGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3578BB28096D3C009A1AC7 /* HorizontalGraph.swift */; };
+		AF35D5082806802F000EE521 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF35D5072806802F000EE521 /* Store.swift */; };
+		AF35D50A28068D79000EE521 /* SpecialOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF35D50928068D79000EE521 /* SpecialOffer.swift */; };
+		AF386FC528027204006FB392 /* adBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF386FC428027204006FB392 /* adBadge.swift */; };
+		AF386FCB28040B04006FB392 /* VIPCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF386FCA28040B03006FB392 /* VIPCard.swift */; };
+		AF3F1DBF27F2F1EB0077A655 /* CoordleGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F1DBE27F2F1EB0077A655 /* CoordleGameApp.swift */; };
+		AF3F1DC127F2F1EB0077A655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F1DC027F2F1EB0077A655 /* ContentView.swift */; };
+		AF3F1DC327F2F1EE0077A655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3F1DC227F2F1EE0077A655 /* Assets.xcassets */; };
+		AF3F1DC627F2F1EE0077A655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3F1DC527F2F1EE0077A655 /* Preview Assets.xcassets */; };
+		AF3F1DD227F2F2860077A655 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F1DCE27F2F2860077A655 /* TabBar.swift */; };
+		AF3F1DD327F2F2860077A655 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F1DCF27F2F2860077A655 /* SplashScreen.swift */; };
+		AF3F1DD527F2F2860077A655 /* TabCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F1DD127F2F2860077A655 /* TabCurve.swift */; };
+		AF3F1DD827F2F28D0077A655 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F1DD727F2F28D0077A655 /* PlayButton.swift */; };
+		AF3F1DDC27F2F2960077A655 /* KeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F1DDA27F2F2960077A655 /* KeyBoard.swift */; };
+		AF3F1DDD27F2F2960077A655 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F1DDB27F2F2960077A655 /* KeyView.swift */; };
+		AF3F1DE227F2F29F0077A655 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F1DDF27F2F29F0077A655 /* Home.swift */; };
+		AF3F1DE327F2F29F0077A655 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F1DE027F2F29F0077A655 /* GameView.swift */; };
+		AF3F1DE427F2F29F0077A655 /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F1DE127F2F29F0077A655 /* GuessView.swift */; };
+		AF569A5028061E9A00D8186F /* PurchaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF569A4F28061E9A00D8186F /* PurchaseHandler.swift */; };
+		AF577ED9280131C800857A5E /* PowerUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF577ED8280131C800857A5E /* PowerUps.swift */; };
+		AF577EDC280145EA00857A5E /* TimerTillTomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF577EDB280145EA00857A5E /* TimerTillTomorrow.swift */; };
+		AF6637C12802429B00D8E536 /* DailyChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6637C02802429B00D8E536 /* DailyChallenge.swift */; };
+		AF6637C3280244D600D8E536 /* ButtonShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6637C2280244D600D8E536 /* ButtonShimmer.swift */; };
+		AF702C152804C7DB0097381B /* VIPCardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF702C142804C7DB0097381B /* VIPCardAnimation.swift */; };
+		AF7377E62807873D00243E38 /* TabBarV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7377E52807873D00243E38 /* TabBarV2.swift */; };
+		AF76325E281C9DEB0046C3FC /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AF76325D281C9DEB0046C3FC /* SDWebImageSwiftUI */; };
+		AF763260281C9E260046C3FC /* ReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF76325F281C9E260046C3FC /* ReactionView.swift */; };
+		AF79334E281A4DC700786325 /* ItemScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79334D281A4DC700786325 /* ItemScroller.swift */; };
+		AF793352281A622E00786325 /* ItemHScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF793351281A622E00786325 /* ItemHScroll.swift */; };
+		AF7DC1772814EA90003341B7 /* bling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF7DC1762814EA90003341B7 /* bling.mp3 */; };
+		AF7DC17B2814ECED003341B7 /* SpinWheelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DC17A2814ECED003341B7 /* SpinWheelButton.swift */; };
+		AF7DC17F2815152D003341B7 /* NeumorphicModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DC17E2815152D003341B7 /* NeumorphicModifier.swift */; };
+		AF7DC18128151686003341B7 /* Rank&Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DC18028151686003341B7 /* Rank&Points.swift */; };
+		AF7DC18728158DED003341B7 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DC18628158DED003341B7 /* Header.swift */; };
+		AF7DC18928165F7D003341B7 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DC18828165F7B003341B7 /* SnapCarousel.swift */; };
+		AF7DC18B28166113003341B7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DC18A28166113003341B7 /* Item.swift */; };
+		AF7DC18D281754AB003341B7 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DC18C281754AB003341B7 /* CarouselView.swift */; };
+		AF7DC18F2817D3E2003341B7 /* RewardSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DC18E2817D3E2003341B7 /* RewardSpinner.swift */; };
+		AF7E2329281E737F00546137 /* searching.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF7E2328281E737F00546137 /* searching.gif */; };
+		AF7E2FF92802636400065C7A /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E2FF82802636400065C7A /* GameType.swift */; };
+		AF7FFCF0282222C70080472D /* StoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7FFCEF282222C70080472D /* StoreConstants.swift */; };
+		AF879CB2281BAFB1006403B5 /* SmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF879CB1281BAFB1006403B5 /* SmallButton.swift */; };
+		AF879CB4281BD991006403B5 /* Abbreviate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF879CB3281BD990006403B5 /* Abbreviate.swift */; };
+		AF879CB6281BE1BD006403B5 /* RoundPause.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF879CB5281BE1BC006403B5 /* RoundPause.swift */; };
+		AF87B8162823DEC600508CC2 /* GemStoreButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF87B8152823DEC600508CC2 /* GemStoreButtons.swift */; };
+		AF8C936B280542F400FC9421 /* Purchases+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C936A280542F400FC9421 /* Purchases+Extension.swift */; };
+		AF92613F28054C6300016D08 /* GemShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF92613E28054C6300016D08 /* GemShop.swift */; };
+		AF97660B281F81DD000EB1A5 /* AddShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF97660A281F81DD000EB1A5 /* AddShadow.swift */; };
+		AF9856D927FA09E400852403 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9856D827FA09E400852403 /* StoreKit.framework */; };
+		AF9856DC27FA5E1A00852403 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9856DB27FA5E1900852403 /* StoreView.swift */; };
+		AF9856DF27FA806300852403 /* GemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9856DE27FA806300852403 /* GemsModel.swift */; };
+		AF9856E227FA91F900852403 /* RewardedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9856E127FA91F900852403 /* RewardedAd.swift */; };
+		AF9856E627FA95D100852403 /* FullScreenModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9856E527FA95D100852403 /* FullScreenModifier.swift */; };
+		AF9856F927FAAF2C00852403 /* GemTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9856F827FAAF2C00852403 /* GemTicker.swift */; };
+		AF9856FD27FAB95400852403 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9856FC27FAB95400852403 /* View+Extension.swift */; };
+		AF98570127FACBF800852403 /* GameTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98570027FACBF700852403 /* GameTitle.swift */; };
+		AF98570427FAD26C00852403 /* GameTitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98570327FAD26C00852403 /* GameTitleModel.swift */; };
+		AF98570727FAD87900852403 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98570627FAD87900852403 /* Date+Extension.swift */; };
+		AF9F740E27F2F5E000E702DB /* GuessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F740C27F2F5E000E702DB /* GuessModel.swift */; };
+		AF9F740F27F2F5E000E702DB /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F740D27F2F5E000E702DB /* Global.swift */; };
+		AF9F741227F2F60100E702DB /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F741027F2F60100E702DB /* UIApplication+Extension.swift */; };
+		AF9F741327F2F60100E702DB /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F741127F2F60100E702DB /* UIWindow+Extension.swift */; };
+		AF9F741627F2F64C00E702DB /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F741527F2F64C00E702DB /* Shake.swift */; };
+		AF9F741827F2F65700E702DB /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F741727F2F65700E702DB /* FlipView.swift */; };
+		AF9F741A27F2F66A00E702DB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F741927F2F66A00E702DB /* DataModel.swift */; };
+		AF9F741C27F2F67400E702DB /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F741B27F2F67400E702DB /* PlayerModel.swift */; };
+		AF9F741E27F2F75700E702DB /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F741D27F2F75700E702DB /* Color+Extension.swift */; };
+		AF9F743827F4D17100E702DB /* BannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F743727F4D17100E702DB /* BannerAd.swift */; };
+		AF9FECCA281FF2A700CEC32B /* DictionaryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9FECC9281FF2A700CEC32B /* DictionaryHandler.swift */; };
+		AF9FECCC28203E7C00CEC32B /* SwipeIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9FECCB28203E7B00CEC32B /* SwipeIndicator.swift */; };
+		AF9FECD728204D3600CEC32B /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = AF9FECD628204D3600CEC32B /* SwiftyGif */; };
+		AF9FECDD2820663200CEC32B /* handGesture.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FECDC2820663200CEC32B /* handGesture.gif */; };
+		AF9FECDF28207CF700CEC32B /* 5StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9FECDE28207CF600CEC32B /* 5StarView.swift */; };
+		AF9FECE22820DCA500CEC32B /* ReactionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9FECE12820DCA400CEC32B /* ReactionPicker.swift */; };
+		AF9FECE42820F88A00CEC32B /* Emote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9FECE32820F88900CEC32B /* Emote.swift */; };
+		AF9FED2C2821176900CEC32B /* spookyHaha.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED072821176600CEC32B /* spookyHaha.gif */; };
+		AF9FED2D2821176900CEC32B /* funnyCry.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED082821176600CEC32B /* funnyCry.gif */; };
+		AF9FED2E2821176900CEC32B /* like.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED092821176600CEC32B /* like.gif */; };
+		AF9FED2F2821176900CEC32B /* love.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED0A2821176600CEC32B /* love.gif */; };
+		AF9FED302821176900CEC32B /* confetti.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED0B2821176600CEC32B /* confetti.gif */; };
+		AF9FED312821176900CEC32B /* pokeWow.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED0C2821176600CEC32B /* pokeWow.gif */; };
+		AF9FED322821176900CEC32B /* sleepyCry.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED0D2821176600CEC32B /* sleepyCry.gif */; };
+		AF9FED332821176900CEC32B /* cry.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED0E2821176700CEC32B /* cry.gif */; };
+		AF9FED342821176900CEC32B /* funnyLike.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED0F2821176700CEC32B /* funnyLike.gif */; };
+		AF9FED352821176900CEC32B /* jazz.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED102821176700CEC32B /* jazz.gif */; };
+		AF9FED362821176900CEC32B /* funnyLove.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED112821176700CEC32B /* funnyLove.gif */; };
+		AF9FED372821176900CEC32B /* sleepyMad.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED122821176700CEC32B /* sleepyMad.gif */; };
+		AF9FED382821176900CEC32B /* sleepySleep.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED132821176700CEC32B /* sleepySleep.gif */; };
+		AF9FED392821176900CEC32B /* spookyLike.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED142821176700CEC32B /* spookyLike.gif */; };
+		AF9FED3A2821176900CEC32B /* spookyLove.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED152821176700CEC32B /* spookyLove.gif */; };
+		AF9FED3B2821176900CEC32B /* spookyWow.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED162821176700CEC32B /* spookyWow.gif */; };
+		AF9FED3C2821176900CEC32B /* pokeCry.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED172821176700CEC32B /* pokeCry.gif */; };
+		AF9FED3D2821176900CEC32B /* spookyMad.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED182821176800CEC32B /* spookyMad.gif */; };
+		AF9FED3E2821176900CEC32B /* poop.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED192821176800CEC32B /* poop.gif */; };
+		AF9FED3F2821176900CEC32B /* spookyCry.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED1A2821176800CEC32B /* spookyCry.gif */; };
+		AF9FED402821176900CEC32B /* pokeMad.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED1B2821176800CEC32B /* pokeMad.gif */; };
+		AF9FED412821176900CEC32B /* fire.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED1C2821176800CEC32B /* fire.gif */; };
+		AF9FED422821176900CEC32B /* pokeHaha.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED1D2821176800CEC32B /* pokeHaha.gif */; };
+		AF9FED432821176900CEC32B /* zzz.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED1E2821176800CEC32B /* zzz.gif */; };
+		AF9FED442821176900CEC32B /* funnyHaha.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED1F2821176800CEC32B /* funnyHaha.gif */; };
+		AF9FED452821176900CEC32B /* barf.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED202821176800CEC32B /* barf.gif */; };
+		AF9FED462821176900CEC32B /* pokeLike.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED212821176800CEC32B /* pokeLike.gif */; };
+		AF9FED472821176900CEC32B /* flash.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED222821176800CEC32B /* flash.gif */; };
+		AF9FED482821176900CEC32B /* funnyWow.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED232821176800CEC32B /* funnyWow.gif */; };
+		AF9FED492821176900CEC32B /* wow.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED242821176800CEC32B /* wow.gif */; };
+		AF9FED4A2821176900CEC32B /* cash.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED252821176800CEC32B /* cash.gif */; };
+		AF9FED4B2821176900CEC32B /* sick.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED262821176900CEC32B /* sick.gif */; };
+		AF9FED4C2821176900CEC32B /* stars.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED272821176900CEC32B /* stars.gif */; };
+		AF9FED4D2821176900CEC32B /* funnyMad.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED282821176900CEC32B /* funnyMad.gif */; };
+		AF9FED4E2821176900CEC32B /* sleepyLike.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED292821176900CEC32B /* sleepyLike.gif */; };
+		AF9FED4F2821176900CEC32B /* sleepyWow.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED2A2821176900CEC32B /* sleepyWow.gif */; };
+		AF9FED502821176900CEC32B /* haha.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF9FED2B2821176900CEC32B /* haha.gif */; };
+		AFAEE8E227FD333300DA9C06 /* ComplimentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAEE8E127FD333300DA9C06 /* ComplimentView.swift */; };
+		AFBC70022822A0AC004995B9 /* ItemGroupScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBC70012822A0AC004995B9 /* ItemGroupScroll.swift */; };
+		AFBF421D2818E02700E21118 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF421C2818E02700E21118 /* ItemView.swift */; };
+		AFBF421F2818E32000E21118 /* ItemPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF421E2818E32000E21118 /* ItemPicker.swift */; };
+		AFC962C328077A760098CF37 /* StaticSparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC962C228077A760098CF37 /* StaticSparkle.swift */; };
+		AFC97366280BD06B00D5671C /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC97365280BD06B00D5671C /* Leaderboard.swift */; };
+		AFC97368280CDC0F00D5671C /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC97367280CDC0F00D5671C /* OffsetModifier.swift */; };
+		AFC9736C280E203A00D5671C /* SystemFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9736B280E203900D5671C /* SystemFunctions.swift */; };
+		AFC97371280E296100D5671C /* whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFC9736F280E296000D5671C /* whoosh.mp3 */; };
+		AFC97372280E296100D5671C /* chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFC97370280E296100D5671C /* chime.mp3 */; };
+		AFCA1C6427FFF0DD00569DD2 /* BoardSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA1C6327FFF0DD00569DD2 /* BoardSave.swift */; };
+		AFCA1C6B2800032D00569DD2 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA1C6A2800032D00569DD2 /* Level.swift */; };
+		AFCA862B27FD6B8000F8018E /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA862A27FD6B8000F8018E /* Statistic.swift */; };
+		AFCA863227FE2B7A00F8018E /* DifficultyPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA863127FE2B7A00F8018E /* DifficultyPicker.swift */; };
+		AFCEE5552811C24B009DC2A5 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCEE5542811C24B009DC2A5 /* Tutorial.swift */; };
+		AFCEE559281231B7009DC2A5 /* SpinWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCEE558281231B6009DC2A5 /* SpinWheelView.swift */; };
+		AFCEE55B28123657009DC2A5 /* SpinWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCEE55A28123657009DC2A5 /* SpinWheel.swift */; };
+		AFCEE565281404C4009DC2A5 /* 2205.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFCEE560281404C3009DC2A5 /* 2205.mp3 */; };
+		AFCEE566281404C4009DC2A5 /* 2160.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFCEE561281404C3009DC2A5 /* 2160.mp3 */; };
+		AFCEE567281404C4009DC2A5 /* 2295.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFCEE562281404C3009DC2A5 /* 2295.mp3 */; };
+		AFCEE568281404C4009DC2A5 /* 2250.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFCEE563281404C3009DC2A5 /* 2250.mp3 */; };
+		AFCEE569281404C4009DC2A5 /* 2340.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFCEE564281404C3009DC2A5 /* 2340.mp3 */; };
+		AFDEF0F227FAE127000D1639 /* RewardPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEF0F127FAE127000D1639 /* RewardPopUp.swift */; };
+		AFF0A3AF2806C3A9006123EE /* TicketPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF0A3AE2806C3A9006123EE /* TicketPreview.swift */; };
+		AFF87430280E6F110068A3BF /* key.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFF8742F280E6F110068A3BF /* key.mp3 */; };
+		AFF87432280E7C500068A3BF /* swoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFF87431280E7C500068A3BF /* swoosh.mp3 */; };
+		AFF87434280E7CA30068A3BF /* woosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFF87433280E7CA30068A3BF /* woosh.mp3 */; };
+		AFF87436280E7DE90068A3BF /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF87435280E7DE90068A3BF /* Countdown.swift */; };
+		AFF8743A280FB0B50068A3BF /* EndScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF87439280FB0B50068A3BF /* EndScreen.swift */; };
+		AFF8743C281117950068A3BF /* InterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8743B281117950068A3BF /* InterstitialAd.swift */; };
+		AFF8743F28113B9E0068A3BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFF8743E28113B9E0068A3BF /* GoogleService-Info.plist */; };
+		AFF8744128113FDB0068A3BF /* MovingLeaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8744028113FDB0068A3BF /* MovingLeaderboard.swift */; };
+		AFF87443281141BF0068A3BF /* RankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF87442281141BF0068A3BF /* RankView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F64F86B8D1052C13EE356C4 /* Pods_CoordleGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoordleGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D25A9AAFE3F8D2BAFA0171 /* Pods-CoordleGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordleGame.debug.xcconfig"; path = "Target Support Files/Pods-CoordleGame/Pods-CoordleGame.debug.xcconfig"; sourceTree = "<group>"; };
+		81328698FA1DB2B8652AE129 /* Pods-CoordleGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordleGame.release.xcconfig"; path = "Target Support Files/Pods-CoordleGame/Pods-CoordleGame.release.xcconfig"; sourceTree = "<group>"; };
+		AF159F8127F51DA9009C2CD1 /* OpenAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAd.swift; sourceTree = "<group>"; };
+		AF2A0FDC27F6869D0035BD68 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AF2A0FDF27F6AFB20035BD68 /* DarkModeSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeSwitch.swift; sourceTree = "<group>"; };
+		AF2B55E927FAFA2C004A495F /* TextShimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextShimmer.swift; sourceTree = "<group>"; };
+		AF2B55EC27FB008F004A495F /* RollingNumberAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingNumberAnimation.swift; sourceTree = "<group>"; };
+		AF3578A62808E2CA009A1AC7 /* VerifySMS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifySMS.swift; sourceTree = "<group>"; };
+		AF3578A82808EDC6009A1AC7 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		AF3578AA2808FE68009A1AC7 /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
+		AF3578AC280912AD009A1AC7 /* FavoriteColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteColor.swift; sourceTree = "<group>"; };
+		AF3578AE28091495009A1AC7 /* Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduction.swift; sourceTree = "<group>"; };
+		AF3578B028091D72009A1AC7 /* ChooseUsername.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseUsername.swift; sourceTree = "<group>"; };
+		AF3578B7280932C9009A1AC7 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		AF3578BB28096D3C009A1AC7 /* HorizontalGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGraph.swift; sourceTree = "<group>"; };
+		AF35D5072806802F000EE521 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		AF35D50928068D79000EE521 /* SpecialOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialOffer.swift; sourceTree = "<group>"; };
+		AF386FC428027204006FB392 /* adBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adBadge.swift; sourceTree = "<group>"; };
+		AF386FCA28040B03006FB392 /* VIPCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPCard.swift; sourceTree = "<group>"; };
+		AF3F1DBB27F2F1EB0077A655 /* CoordleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3F1DBE27F2F1EB0077A655 /* CoordleGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordleGameApp.swift; sourceTree = "<group>"; };
+		AF3F1DC027F2F1EB0077A655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF3F1DC227F2F1EE0077A655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF3F1DC527F2F1EE0077A655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF3F1DC727F2F1EE0077A655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3F1DCE27F2F2860077A655 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		AF3F1DCF27F2F2860077A655 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		AF3F1DD127F2F2860077A655 /* TabCurve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCurve.swift; sourceTree = "<group>"; };
+		AF3F1DD727F2F28D0077A655 /* PlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		AF3F1DDA27F2F2960077A655 /* KeyBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyBoard.swift; sourceTree = "<group>"; };
+		AF3F1DDB27F2F2960077A655 /* KeyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
+		AF3F1DDF27F2F29F0077A655 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AF3F1DE027F2F29F0077A655 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		AF3F1DE127F2F29F0077A655 /* GuessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
+		AF569A4F28061E9A00D8186F /* PurchaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseHandler.swift; sourceTree = "<group>"; };
+		AF577ED8280131C800857A5E /* PowerUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUps.swift; sourceTree = "<group>"; };
+		AF577EDB280145EA00857A5E /* TimerTillTomorrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTillTomorrow.swift; sourceTree = "<group>"; };
+		AF6637C02802429B00D8E536 /* DailyChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallenge.swift; sourceTree = "<group>"; };
+		AF6637C2280244D600D8E536 /* ButtonShimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonShimmer.swift; sourceTree = "<group>"; };
+		AF702C142804C7DB0097381B /* VIPCardAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPCardAnimation.swift; sourceTree = "<group>"; };
+		AF7377E52807873D00243E38 /* TabBarV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarV2.swift; sourceTree = "<group>"; };
+		AF76325F281C9E260046C3FC /* ReactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionView.swift; sourceTree = "<group>"; };
+		AF79334D281A4DC700786325 /* ItemScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemScroller.swift; sourceTree = "<group>"; };
+		AF793351281A622E00786325 /* ItemHScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemHScroll.swift; sourceTree = "<group>"; };
+		AF7DC1762814EA90003341B7 /* bling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bling.mp3; sourceTree = "<group>"; };
+		AF7DC17A2814ECED003341B7 /* SpinWheelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelButton.swift; sourceTree = "<group>"; };
+		AF7DC17E2815152D003341B7 /* NeumorphicModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicModifier.swift; sourceTree = "<group>"; };
+		AF7DC18028151686003341B7 /* Rank&Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rank&Points.swift"; sourceTree = "<group>"; };
+		AF7DC18628158DED003341B7 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		AF7DC18828165F7B003341B7 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		AF7DC18A28166113003341B7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AF7DC18C281754AB003341B7 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		AF7DC18E2817D3E2003341B7 /* RewardSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardSpinner.swift; sourceTree = "<group>"; };
+		AF7E2328281E737F00546137 /* searching.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = searching.gif; sourceTree = "<group>"; };
+		AF7E2FF82802636400065C7A /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
+		AF7FFCEF282222C70080472D /* StoreConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreConstants.swift; sourceTree = "<group>"; };
+		AF879CB1281BAFB1006403B5 /* SmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallButton.swift; sourceTree = "<group>"; };
+		AF879CB3281BD990006403B5 /* Abbreviate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abbreviate.swift; sourceTree = "<group>"; };
+		AF879CB5281BE1BC006403B5 /* RoundPause.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundPause.swift; sourceTree = "<group>"; };
+		AF87B8152823DEC600508CC2 /* GemStoreButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemStoreButtons.swift; sourceTree = "<group>"; };
+		AF8C936A280542F400FC9421 /* Purchases+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Purchases+Extension.swift"; sourceTree = "<group>"; };
+		AF92613E28054C6300016D08 /* GemShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemShop.swift; sourceTree = "<group>"; };
+		AF97660A281F81DD000EB1A5 /* AddShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShadow.swift; sourceTree = "<group>"; };
+		AF9856D827FA09E400852403 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AF9856DB27FA5E1900852403 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		AF9856DE27FA806300852403 /* GemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemsModel.swift; sourceTree = "<group>"; };
+		AF9856E127FA91F900852403 /* RewardedAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAd.swift; sourceTree = "<group>"; };
+		AF9856E527FA95D100852403 /* FullScreenModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenModifier.swift; sourceTree = "<group>"; };
+		AF9856F827FAAF2C00852403 /* GemTicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemTicker.swift; sourceTree = "<group>"; };
+		AF9856FC27FAB95400852403 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		AF98570027FACBF700852403 /* GameTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTitle.swift; sourceTree = "<group>"; };
+		AF98570327FAD26C00852403 /* GameTitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTitleModel.swift; sourceTree = "<group>"; };
+		AF98570627FAD87900852403 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		AF9F740C27F2F5E000E702DB /* GuessModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessModel.swift; sourceTree = "<group>"; };
+		AF9F740D27F2F5E000E702DB /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		AF9F741027F2F60100E702DB /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		AF9F741127F2F60100E702DB /* UIWindow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
+		AF9F741527F2F64C00E702DB /* Shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
+		AF9F741727F2F65700E702DB /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		AF9F741927F2F66A00E702DB /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		AF9F741B27F2F67400E702DB /* PlayerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		AF9F741D27F2F75700E702DB /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		AF9F743727F4D17100E702DB /* BannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAd.swift; sourceTree = "<group>"; };
+		AF9FECC9281FF2A700CEC32B /* DictionaryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryHandler.swift; sourceTree = "<group>"; };
+		AF9FECCB28203E7B00CEC32B /* SwipeIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeIndicator.swift; sourceTree = "<group>"; };
+		AF9FECDC2820663200CEC32B /* handGesture.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = handGesture.gif; sourceTree = "<group>"; };
+		AF9FECDE28207CF600CEC32B /* 5StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5StarView.swift; sourceTree = "<group>"; };
+		AF9FECE12820DCA400CEC32B /* ReactionPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionPicker.swift; sourceTree = "<group>"; };
+		AF9FECE32820F88900CEC32B /* Emote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emote.swift; sourceTree = "<group>"; };
+		AF9FED072821176600CEC32B /* spookyHaha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spookyHaha.gif; sourceTree = "<group>"; };
+		AF9FED082821176600CEC32B /* funnyCry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = funnyCry.gif; sourceTree = "<group>"; };
+		AF9FED092821176600CEC32B /* like.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = like.gif; sourceTree = "<group>"; };
+		AF9FED0A2821176600CEC32B /* love.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = love.gif; sourceTree = "<group>"; };
+		AF9FED0B2821176600CEC32B /* confetti.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = confetti.gif; sourceTree = "<group>"; };
+		AF9FED0C2821176600CEC32B /* pokeWow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pokeWow.gif; sourceTree = "<group>"; };
+		AF9FED0D2821176600CEC32B /* sleepyCry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sleepyCry.gif; sourceTree = "<group>"; };
+		AF9FED0E2821176700CEC32B /* cry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cry.gif; sourceTree = "<group>"; };
+		AF9FED0F2821176700CEC32B /* funnyLike.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = funnyLike.gif; sourceTree = "<group>"; };
+		AF9FED102821176700CEC32B /* jazz.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jazz.gif; sourceTree = "<group>"; };
+		AF9FED112821176700CEC32B /* funnyLove.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = funnyLove.gif; sourceTree = "<group>"; };
+		AF9FED122821176700CEC32B /* sleepyMad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sleepyMad.gif; sourceTree = "<group>"; };
+		AF9FED132821176700CEC32B /* sleepySleep.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sleepySleep.gif; sourceTree = "<group>"; };
+		AF9FED142821176700CEC32B /* spookyLike.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spookyLike.gif; sourceTree = "<group>"; };
+		AF9FED152821176700CEC32B /* spookyLove.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spookyLove.gif; sourceTree = "<group>"; };
+		AF9FED162821176700CEC32B /* spookyWow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spookyWow.gif; sourceTree = "<group>"; };
+		AF9FED172821176700CEC32B /* pokeCry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pokeCry.gif; sourceTree = "<group>"; };
+		AF9FED182821176800CEC32B /* spookyMad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spookyMad.gif; sourceTree = "<group>"; };
+		AF9FED192821176800CEC32B /* poop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = poop.gif; sourceTree = "<group>"; };
+		AF9FED1A2821176800CEC32B /* spookyCry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spookyCry.gif; sourceTree = "<group>"; };
+		AF9FED1B2821176800CEC32B /* pokeMad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pokeMad.gif; sourceTree = "<group>"; };
+		AF9FED1C2821176800CEC32B /* fire.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fire.gif; sourceTree = "<group>"; };
+		AF9FED1D2821176800CEC32B /* pokeHaha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pokeHaha.gif; sourceTree = "<group>"; };
+		AF9FED1E2821176800CEC32B /* zzz.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = zzz.gif; sourceTree = "<group>"; };
+		AF9FED1F2821176800CEC32B /* funnyHaha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = funnyHaha.gif; sourceTree = "<group>"; };
+		AF9FED202821176800CEC32B /* barf.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = barf.gif; sourceTree = "<group>"; };
+		AF9FED212821176800CEC32B /* pokeLike.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pokeLike.gif; sourceTree = "<group>"; };
+		AF9FED222821176800CEC32B /* flash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flash.gif; sourceTree = "<group>"; };
+		AF9FED232821176800CEC32B /* funnyWow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = funnyWow.gif; sourceTree = "<group>"; };
+		AF9FED242821176800CEC32B /* wow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wow.gif; sourceTree = "<group>"; };
+		AF9FED252821176800CEC32B /* cash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cash.gif; sourceTree = "<group>"; };
+		AF9FED262821176900CEC32B /* sick.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sick.gif; sourceTree = "<group>"; };
+		AF9FED272821176900CEC32B /* stars.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stars.gif; sourceTree = "<group>"; };
+		AF9FED282821176900CEC32B /* funnyMad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = funnyMad.gif; sourceTree = "<group>"; };
+		AF9FED292821176900CEC32B /* sleepyLike.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sleepyLike.gif; sourceTree = "<group>"; };
+		AF9FED2A2821176900CEC32B /* sleepyWow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sleepyWow.gif; sourceTree = "<group>"; };
+		AF9FED2B2821176900CEC32B /* haha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = haha.gif; sourceTree = "<group>"; };
+		AFAEE8E127FD333300DA9C06 /* ComplimentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplimentView.swift; sourceTree = "<group>"; };
+		AFBC70012822A0AC004995B9 /* ItemGroupScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemGroupScroll.swift; sourceTree = "<group>"; };
+		AFBF421C2818E02700E21118 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		AFBF421E2818E32000E21118 /* ItemPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPicker.swift; sourceTree = "<group>"; };
+		AFC962C228077A760098CF37 /* StaticSparkle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticSparkle.swift; sourceTree = "<group>"; };
+		AFC97365280BD06B00D5671C /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
+		AFC97367280CDC0F00D5671C /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
+		AFC9736B280E203900D5671C /* SystemFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFunctions.swift; sourceTree = "<group>"; };
+		AFC9736F280E296000D5671C /* whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whoosh.mp3; sourceTree = "<group>"; };
+		AFC97370280E296100D5671C /* chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chime.mp3; sourceTree = "<group>"; };
+		AFCA1C6327FFF0DD00569DD2 /* BoardSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardSave.swift; sourceTree = "<group>"; };
+		AFCA1C6A2800032D00569DD2 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		AFCA862A27FD6B8000F8018E /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		AFCA863127FE2B7A00F8018E /* DifficultyPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyPicker.swift; sourceTree = "<group>"; };
+		AFCEE5542811C24B009DC2A5 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		AFCEE558281231B6009DC2A5 /* SpinWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelView.swift; sourceTree = "<group>"; };
+		AFCEE55A28123657009DC2A5 /* SpinWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheel.swift; sourceTree = "<group>"; };
+		AFCEE560281404C3009DC2A5 /* 2205.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2205.mp3; sourceTree = "<group>"; };
+		AFCEE561281404C3009DC2A5 /* 2160.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2160.mp3; sourceTree = "<group>"; };
+		AFCEE562281404C3009DC2A5 /* 2295.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2295.mp3; sourceTree = "<group>"; };
+		AFCEE563281404C3009DC2A5 /* 2250.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2250.mp3; sourceTree = "<group>"; };
+		AFCEE564281404C3009DC2A5 /* 2340.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2340.mp3; sourceTree = "<group>"; };
+		AFDEF0F127FAE127000D1639 /* RewardPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardPopUp.swift; sourceTree = "<group>"; };
+		AFF0A3AE2806C3A9006123EE /* TicketPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketPreview.swift; sourceTree = "<group>"; };
+		AFF8742F280E6F110068A3BF /* key.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = key.mp3; sourceTree = "<group>"; };
+		AFF87431280E7C500068A3BF /* swoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swoosh.mp3; sourceTree = "<group>"; };
+		AFF87433280E7CA30068A3BF /* woosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woosh.mp3; sourceTree = "<group>"; };
+		AFF87435280E7DE90068A3BF /* Countdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown.swift; sourceTree = "<group>"; };
+		AFF87439280FB0B50068A3BF /* EndScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreen.swift; sourceTree = "<group>"; };
+		AFF8743B281117950068A3BF /* InterstitialAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAd.swift; sourceTree = "<group>"; };
+		AFF8743E28113B9E0068A3BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AFF8744028113FDB0068A3BF /* MovingLeaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingLeaderboard.swift; sourceTree = "<group>"; };
+		AFF87442281141BF0068A3BF /* RankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF3F1DB827F2F1EB0077A655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF76325E281C9DEB0046C3FC /* SDWebImageSwiftUI in Frameworks */,
+				AF3578A52808DEF7009A1AC7 /* FirebaseAnalytics in Frameworks */,
+				AF9856D927FA09E400852403 /* StoreKit.framework in Frameworks */,
+				AF3578A02808DE72009A1AC7 /* FirebaseAuth in Frameworks */,
+				AF159F8727F566D8009C2CD1 /* ConfettiSwiftUI in Frameworks */,
+				AF9FECD728204D3600CEC32B /* SwiftyGif in Frameworks */,
+				AF159F7E27F4D334009C2CD1 /* Pods_CoordleGame.framework in Frameworks */,
+				AF3578B428092ED0009A1AC7 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01AF65E2500D69FDAA59C7AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71D25A9AAFE3F8D2BAFA0171 /* Pods-CoordleGame.debug.xcconfig */,
+				81328698FA1DB2B8652AE129 /* Pods-CoordleGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3DD2883275F11FAA2215FBB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF9856D827FA09E400852403 /* StoreKit.framework */,
+				0F64F86B8D1052C13EE356C4 /* Pods_CoordleGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF3F1DB227F2F1EB0077A655 = {
+			isa = PBXGroup;
+			children = (
+				AF3F1DBD27F2F1EB0077A655 /* CoordleGame */,
+				AF3F1DBC27F2F1EB0077A655 /* Products */,
+				01AF65E2500D69FDAA59C7AD /* Pods */,
+				3DD2883275F11FAA2215FBB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF3F1DBC27F2F1EB0077A655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F1DBB27F2F1EB0077A655 /* CoordleGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF3F1DBD27F2F1EB0077A655 /* CoordleGame */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F1DBE27F2F1EB0077A655 /* CoordleGameApp.swift */,
+				AF3F1DC027F2F1EB0077A655 /* ContentView.swift */,
+				AF9F740727F2F5A100E702DB /* Model */,
+				AFCEE5532811B83B009DC2A5 /* View */,
+				AF7DC1842815190A003341B7 /* ViewModifiers */,
+				AF9F740927F2F5B200E702DB /* ViewModel */,
+				AF9F740A27F2F5BB00E702DB /* Animations */,
+				AF9F740B27F2F5C600E702DB /* Extensions */,
+				AFF87444281143250068A3BF /* SFX */,
+				AF7E231A281E22E100546137 /* GIFs */,
+				AF3F1DC227F2F1EE0077A655 /* Assets.xcassets */,
+				AF3F1DC727F2F1EE0077A655 /* Info.plist */,
+				AFF8743E28113B9E0068A3BF /* GoogleService-Info.plist */,
+				AF3F1DC427F2F1EE0077A655 /* Preview Content */,
+			);
+			path = CoordleGame;
+			sourceTree = "<group>";
+		};
+		AF3F1DC427F2F1EE0077A655 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F1DC527F2F1EE0077A655 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF7DC1832815189B003341B7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF9FECDE28207CF600CEC32B /* 5StarView.swift */,
+				AFCEE5542811C24B009DC2A5 /* Tutorial.swift */,
+				AF3F1DDF27F2F29F0077A655 /* Home.swift */,
+				AF7DC18028151686003341B7 /* Rank&Points.swift */,
+				AF3F1DD727F2F28D0077A655 /* PlayButton.swift */,
+				AF6637C02802429B00D8E536 /* DailyChallenge.swift */,
+				AF577EDB280145EA00857A5E /* TimerTillTomorrow.swift */,
+				AF879CB1281BAFB1006403B5 /* SmallButton.swift */,
+				AF7DC17A2814ECED003341B7 /* SpinWheelButton.swift */,
+				AF9FECC9281FF2A700CEC32B /* DictionaryHandler.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AF7DC1842815190A003341B7 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				AFC97367280CDC0F00D5671C /* OffsetModifier.swift */,
+				AF7DC17E2815152D003341B7 /* NeumorphicModifier.swift */,
+				AF9856E527FA95D100852403 /* FullScreenModifier.swift */,
+				AF6637C2280244D600D8E536 /* ButtonShimmer.swift */,
+				AF2B55E927FAFA2C004A495F /* TextShimmer.swift */,
+				AF97660A281F81DD000EB1A5 /* AddShadow.swift */,
+				AF7DC18628158DED003341B7 /* Header.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		AF7DC18528153C02003341B7 /* FortuneWheel */ = {
+			isa = PBXGroup;
+			children = (
+				AFCEE558281231B6009DC2A5 /* SpinWheelView.swift */,
+				AFCEE55A28123657009DC2A5 /* SpinWheel.swift */,
+				AF9FECCB28203E7B00CEC32B /* SwipeIndicator.swift */,
+			);
+			path = FortuneWheel;
+			sourceTree = "<group>";
+		};
+		AF7E231A281E22E100546137 /* GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				AF9FED202821176800CEC32B /* barf.gif */,
+				AF9FED252821176800CEC32B /* cash.gif */,
+				AF9FED0B2821176600CEC32B /* confetti.gif */,
+				AF9FED0E2821176700CEC32B /* cry.gif */,
+				AF9FED1C2821176800CEC32B /* fire.gif */,
+				AF9FED222821176800CEC32B /* flash.gif */,
+				AF9FED082821176600CEC32B /* funnyCry.gif */,
+				AF9FED1F2821176800CEC32B /* funnyHaha.gif */,
+				AF9FED0F2821176700CEC32B /* funnyLike.gif */,
+				AF9FED112821176700CEC32B /* funnyLove.gif */,
+				AF9FED282821176900CEC32B /* funnyMad.gif */,
+				AF9FED232821176800CEC32B /* funnyWow.gif */,
+				AF9FED2B2821176900CEC32B /* haha.gif */,
+				AF9FED102821176700CEC32B /* jazz.gif */,
+				AF9FED092821176600CEC32B /* like.gif */,
+				AF9FED0A2821176600CEC32B /* love.gif */,
+				AF9FED172821176700CEC32B /* pokeCry.gif */,
+				AF9FED1D2821176800CEC32B /* pokeHaha.gif */,
+				AF9FED212821176800CEC32B /* pokeLike.gif */,
+				AF9FED1B2821176800CEC32B /* pokeMad.gif */,
+				AF9FED0C2821176600CEC32B /* pokeWow.gif */,
+				AF9FED192821176800CEC32B /* poop.gif */,
+				AF9FED262821176900CEC32B /* sick.gif */,
+				AF9FED0D2821176600CEC32B /* sleepyCry.gif */,
+				AF9FED292821176900CEC32B /* sleepyLike.gif */,
+				AF9FED122821176700CEC32B /* sleepyMad.gif */,
+				AF9FED132821176700CEC32B /* sleepySleep.gif */,
+				AF9FED2A2821176900CEC32B /* sleepyWow.gif */,
+				AF9FED1A2821176800CEC32B /* spookyCry.gif */,
+				AF9FED072821176600CEC32B /* spookyHaha.gif */,
+				AF9FED142821176700CEC32B /* spookyLike.gif */,
+				AF9FED152821176700CEC32B /* spookyLove.gif */,
+				AF9FED182821176800CEC32B /* spookyMad.gif */,
+				AF9FED162821176700CEC32B /* spookyWow.gif */,
+				AF9FED272821176900CEC32B /* stars.gif */,
+				AF9FED242821176800CEC32B /* wow.gif */,
+				AF9FED1E2821176800CEC32B /* zzz.gif */,
+				AF9FECDC2820663200CEC32B /* handGesture.gif */,
+				AF7E2328281E737F00546137 /* searching.gif */,
+			);
+			path = GIFs;
+			sourceTree = "<group>";
+		};
+		AF847DCF282B7E8D00167E66 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				AFDEF0F127FAE127000D1639 /* RewardPopUp.swift */,
+				AF3578BB28096D3C009A1AC7 /* HorizontalGraph.swift */,
+				AFCA863127FE2B7A00F8018E /* DifficultyPicker.swift */,
+				AFAEE8E127FD333300DA9C06 /* ComplimentView.swift */,
+				AF3F1DE027F2F29F0077A655 /* GameView.swift */,
+				AF3F1DE127F2F29F0077A655 /* GuessView.swift */,
+				AF879CB5281BE1BC006403B5 /* RoundPause.swift */,
+				AF98570027FACBF700852403 /* GameTitle.swift */,
+				AFF87439280FB0B50068A3BF /* EndScreen.swift */,
+				AF577ED8280131C800857A5E /* PowerUps.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		AF86684F28650F7D0058868A /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				AF3578A62808E2CA009A1AC7 /* VerifySMS.swift */,
+				AF3578AA2808FE68009A1AC7 /* NumberPad.swift */,
+				AF3578AE28091495009A1AC7 /* Introduction.swift */,
+				AF3578B028091D72009A1AC7 /* ChooseUsername.swift */,
+				AF3578AC280912AD009A1AC7 /* FavoriteColor.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		AF866850286621A20058868A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AF2A0FDC27F6869D0035BD68 /* Settings.swift */,
+				AF2A0FDF27F6AFB20035BD68 /* DarkModeSwitch.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AF866851286621B70058868A /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				AFF8744028113FDB0068A3BF /* MovingLeaderboard.swift */,
+				AFC97365280BD06B00D5671C /* Leaderboard.swift */,
+				AFF87442281141BF0068A3BF /* RankView.swift */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
+		AF9F740727F2F5A100E702DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF9F740D27F2F5E000E702DB /* Global.swift */,
+				AFCA862A27FD6B8000F8018E /* Statistic.swift */,
+				AF9F740C27F2F5E000E702DB /* GuessModel.swift */,
+				AF9856DE27FA806300852403 /* GemsModel.swift */,
+				AFCA1C6327FFF0DD00569DD2 /* BoardSave.swift */,
+				AF9FECE32820F88900CEC32B /* Emote.swift */,
+				AF7DC18A28166113003341B7 /* Item.swift */,
+				AF3578B7280932C9009A1AC7 /* Rank.swift */,
+				AFCA1C6A2800032D00569DD2 /* Level.swift */,
+				AF98570327FAD26C00852403 /* GameTitleModel.swift */,
+				AF7E2FF82802636400065C7A /* GameType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF9F740927F2F5B200E702DB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF3578A82808EDC6009A1AC7 /* LoginViewModel.swift */,
+				AFC9736B280E203900D5671C /* SystemFunctions.swift */,
+				AF569A4F28061E9A00D8186F /* PurchaseHandler.swift */,
+				AF9F741927F2F66A00E702DB /* DataModel.swift */,
+				AF9F741B27F2F67400E702DB /* PlayerModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AF9F740A27F2F5BB00E702DB /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				AF2B55EC27FB008F004A495F /* RollingNumberAnimation.swift */,
+				AF9F741527F2F64C00E702DB /* Shake.swift */,
+				AF9F741727F2F65700E702DB /* FlipView.swift */,
+				AF3F1DCF27F2F2860077A655 /* SplashScreen.swift */,
+				AFC962C228077A760098CF37 /* StaticSparkle.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		AF9F740B27F2F5C600E702DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF879CB3281BD990006403B5 /* Abbreviate.swift */,
+				AF8C936A280542F400FC9421 /* Purchases+Extension.swift */,
+				AF9856FC27FAB95400852403 /* View+Extension.swift */,
+				AF98570627FAD87900852403 /* Date+Extension.swift */,
+				AF9F741D27F2F75700E702DB /* Color+Extension.swift */,
+				AF9F741027F2F60100E702DB /* UIApplication+Extension.swift */,
+				AF9F741127F2F60100E702DB /* UIWindow+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AF9FECE02820A21300CEC32B /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				AFBF421C2818E02700E21118 /* ItemView.swift */,
+				AF9FECE12820DCA400CEC32B /* ReactionPicker.swift */,
+				AF87B8152823DEC600508CC2 /* GemStoreButtons.swift */,
+				AF35D5072806802F000EE521 /* Store.swift */,
+				AF92613E28054C6300016D08 /* GemShop.swift */,
+				AF35D50928068D79000EE521 /* SpecialOffer.swift */,
+				AFF0A3AE2806C3A9006123EE /* TicketPreview.swift */,
+				AF7FFCEF282222C70080472D /* StoreConstants.swift */,
+				AF793351281A622E00786325 /* ItemHScroll.swift */,
+				AFBC70012822A0AC004995B9 /* ItemGroupScroll.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		AFBC700028227987004995B9 /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				AF9856DB27FA5E1900852403 /* StoreView.swift */,
+				AF79334D281A4DC700786325 /* ItemScroller.swift */,
+				AFF87435280E7DE90068A3BF /* Countdown.swift */,
+				AFBF421E2818E32000E21118 /* ItemPicker.swift */,
+				AF7DC18828165F7B003341B7 /* SnapCarousel.swift */,
+				AF7DC18C281754AB003341B7 /* CarouselView.swift */,
+			);
+			path = Unused;
+			sourceTree = "<group>";
+		};
+		AFCA1C6E28000B1B00569DD2 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F1DCE27F2F2860077A655 /* TabBar.swift */,
+				AF3F1DD127F2F2860077A655 /* TabCurve.swift */,
+				AF7377E52807873D00243E38 /* TabBarV2.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		AFCA1C6F28000B2800569DD2 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F1DDA27F2F2960077A655 /* KeyBoard.swift */,
+				AF3F1DDB27F2F2960077A655 /* KeyView.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		AFCEE5522811B80D009DC2A5 /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				AF386FCA28040B03006FB392 /* VIPCard.swift */,
+				AF702C142804C7DB0097381B /* VIPCardAnimation.swift */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		AFCEE5532811B83B009DC2A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF76325F281C9E260046C3FC /* ReactionView.swift */,
+				AF7DC18E2817D3E2003341B7 /* RewardSpinner.swift */,
+				AF9856F827FAAF2C00852403 /* GemTicker.swift */,
+				AF7DC1832815189B003341B7 /* Home */,
+				AF847DCF282B7E8D00167E66 /* Game */,
+				AF866851286621B70058868A /* Leaderboard */,
+				AF9FECE02820A21300CEC32B /* Store */,
+				AF866850286621A20058868A /* Settings */,
+				AF86684F28650F7D0058868A /* Tutorial */,
+				AF7DC18528153C02003341B7 /* FortuneWheel */,
+				AFCA1C6F28000B2800569DD2 /* Keyboard */,
+				AFCA1C6E28000B1B00569DD2 /* Tab Bar */,
+				AFCEE5522811B80D009DC2A5 /* VIP */,
+				AFF8743D281117A80068A3BF /* Ad */,
+				AFBC700028227987004995B9 /* Unused */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AFF8743D281117A80068A3BF /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				AF386FC428027204006FB392 /* adBadge.swift */,
+				AF9F743727F4D17100E702DB /* BannerAd.swift */,
+				AF159F8127F51DA9009C2CD1 /* OpenAd.swift */,
+				AF9856E127FA91F900852403 /* RewardedAd.swift */,
+				AFF8743B281117950068A3BF /* InterstitialAd.swift */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		AFF87444281143250068A3BF /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				AF7DC1762814EA90003341B7 /* bling.mp3 */,
+				AFCEE561281404C3009DC2A5 /* 2160.mp3 */,
+				AFCEE560281404C3009DC2A5 /* 2205.mp3 */,
+				AFCEE563281404C3009DC2A5 /* 2250.mp3 */,
+				AFCEE562281404C3009DC2A5 /* 2295.mp3 */,
+				AFCEE564281404C3009DC2A5 /* 2340.mp3 */,
+				AFC97370280E296100D5671C /* chime.mp3 */,
+				AFC9736F280E296000D5671C /* whoosh.mp3 */,
+				AFF8742F280E6F110068A3BF /* key.mp3 */,
+				AFF87431280E7C500068A3BF /* swoosh.mp3 */,
+				AFF87433280E7CA30068A3BF /* woosh.mp3 */,
+			);
+			path = SFX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF3F1DBA27F2F1EB0077A655 /* CoordleGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3F1DCA27F2F1EE0077A655 /* Build configuration list for PBXNativeTarget "CoordleGame" */;
+			buildPhases = (
+				57B545C872010CA030A54E83 /* [CP] Check Pods Manifest.lock */,
+				AF3F1DB727F2F1EB0077A655 /* Sources */,
+				AF3F1DB827F2F1EB0077A655 /* Frameworks */,
+				AF3F1DB927F2F1EB0077A655 /* Resources */,
+				3A8899CD3A10401FE4A88088 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoordleGame;
+			packageProductDependencies = (
+				AF159F8627F566D8009C2CD1 /* ConfettiSwiftUI */,
+				AF35789F2808DE72009A1AC7 /* FirebaseAuth */,
+				AF3578A42808DEF7009A1AC7 /* FirebaseAnalytics */,
+				AF3578B328092ED0009A1AC7 /* FirebaseFirestore */,
+				AF76325D281C9DEB0046C3FC /* SDWebImageSwiftUI */,
+				AF9FECD628204D3600CEC32B /* SwiftyGif */,
+			);
+			productName = CoordleGame;
+			productReference = AF3F1DBB27F2F1EB0077A655 /* CoordleGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF3F1DB327F2F1EB0077A655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AF3F1DBA27F2F1EB0077A655 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = AF3F1DB627F2F1EB0077A655 /* Build configuration list for PBXProject "CoordleGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF3F1DB227F2F1EB0077A655;
+			packageReferences = (
+				AF159F8527F566D8009C2CD1 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+				AF044F9A2805438D00728E09 /* XCRemoteSwiftPackageReference "purchases-ios" */,
+				AF92613D280548C900016D08 /* XCRemoteSwiftPackageReference "purchases-ios" */,
+				AF35789C2808DE72009A1AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				AF3578A32808DEF7009A1AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				AF3578B228092ED0009A1AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				AF76325C281C9DEB0046C3FC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				AF9FECD528204D3500CEC32B /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+			);
+			productRefGroup = AF3F1DBC27F2F1EB0077A655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF3F1DBA27F2F1EB0077A655 /* CoordleGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF3F1DB927F2F1EB0077A655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9FED3F2821176900CEC32B /* spookyCry.gif in Resources */,
+				AFCEE567281404C4009DC2A5 /* 2295.mp3 in Resources */,
+				AF9FED412821176900CEC32B /* fire.gif in Resources */,
+				AF9FED422821176900CEC32B /* pokeHaha.gif in Resources */,
+				AF9FED442821176900CEC32B /* funnyHaha.gif in Resources */,
+				AF9FED362821176900CEC32B /* funnyLove.gif in Resources */,
+				AF9FED352821176900CEC32B /* jazz.gif in Resources */,
+				AF9FED382821176900CEC32B /* sleepySleep.gif in Resources */,
+				AF9FED392821176900CEC32B /* spookyLike.gif in Resources */,
+				AF9FECDD2820663200CEC32B /* handGesture.gif in Resources */,
+				AF9FED4D2821176900CEC32B /* funnyMad.gif in Resources */,
+				AF9FED432821176900CEC32B /* zzz.gif in Resources */,
+				AF9FED4C2821176900CEC32B /* stars.gif in Resources */,
+				AF9FED2F2821176900CEC32B /* love.gif in Resources */,
+				AF9FED2E2821176900CEC32B /* like.gif in Resources */,
+				AFF87430280E6F110068A3BF /* key.mp3 in Resources */,
+				AFF8743F28113B9E0068A3BF /* GoogleService-Info.plist in Resources */,
+				AF9FED2D2821176900CEC32B /* funnyCry.gif in Resources */,
+				AF7E2329281E737F00546137 /* searching.gif in Resources */,
+				AF9FED322821176900CEC32B /* sleepyCry.gif in Resources */,
+				AF9FED4F2821176900CEC32B /* sleepyWow.gif in Resources */,
+				AF9FED332821176900CEC32B /* cry.gif in Resources */,
+				AFC97371280E296100D5671C /* whoosh.mp3 in Resources */,
+				AF9FED4A2821176900CEC32B /* cash.gif in Resources */,
+				AF9FED342821176900CEC32B /* funnyLike.gif in Resources */,
+				AF9FED4E2821176900CEC32B /* sleepyLike.gif in Resources */,
+				AF9FED4B2821176900CEC32B /* sick.gif in Resources */,
+				AF3F1DC627F2F1EE0077A655 /* Preview Assets.xcassets in Resources */,
+				AF9FED3E2821176900CEC32B /* poop.gif in Resources */,
+				AF9FED472821176900CEC32B /* flash.gif in Resources */,
+				AF9FED3A2821176900CEC32B /* spookyLove.gif in Resources */,
+				AF9FED302821176900CEC32B /* confetti.gif in Resources */,
+				AF9FED462821176900CEC32B /* pokeLike.gif in Resources */,
+				AF9FED3B2821176900CEC32B /* spookyWow.gif in Resources */,
+				AF7DC1772814EA90003341B7 /* bling.mp3 in Resources */,
+				AF9FED372821176900CEC32B /* sleepyMad.gif in Resources */,
+				AF9FED402821176900CEC32B /* pokeMad.gif in Resources */,
+				AFCEE568281404C4009DC2A5 /* 2250.mp3 in Resources */,
+				AF3F1DC327F2F1EE0077A655 /* Assets.xcassets in Resources */,
+				AF9FED2C2821176900CEC32B /* spookyHaha.gif in Resources */,
+				AF9FED312821176900CEC32B /* pokeWow.gif in Resources */,
+				AF9FED3D2821176900CEC32B /* spookyMad.gif in Resources */,
+				AF9FED492821176900CEC32B /* wow.gif in Resources */,
+				AFC97372280E296100D5671C /* chime.mp3 in Resources */,
+				AF9FED3C2821176900CEC32B /* pokeCry.gif in Resources */,
+				AFCEE565281404C4009DC2A5 /* 2205.mp3 in Resources */,
+				AF9FED502821176900CEC32B /* haha.gif in Resources */,
+				AF9FED452821176900CEC32B /* barf.gif in Resources */,
+				AF9FED482821176900CEC32B /* funnyWow.gif in Resources */,
+				AFF87432280E7C500068A3BF /* swoosh.mp3 in Resources */,
+				AFCEE569281404C4009DC2A5 /* 2340.mp3 in Resources */,
+				AFF87434280E7CA30068A3BF /* woosh.mp3 in Resources */,
+				AFCEE566281404C4009DC2A5 /* 2160.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A8899CD3A10401FE4A88088 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoordleGame/Pods-CoordleGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoordleGame/Pods-CoordleGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoordleGame/Pods-CoordleGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57B545C872010CA030A54E83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoordleGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF3F1DB727F2F1EB0077A655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF98570427FAD26C00852403 /* GameTitleModel.swift in Sources */,
+				AF7DC18D281754AB003341B7 /* CarouselView.swift in Sources */,
+				AF3578AD280912AE009A1AC7 /* FavoriteColor.swift in Sources */,
+				AF7DC17B2814ECED003341B7 /* SpinWheelButton.swift in Sources */,
+				AF7DC18128151686003341B7 /* Rank&Points.swift in Sources */,
+				AF3F1DD327F2F2860077A655 /* SplashScreen.swift in Sources */,
+				AF9F741827F2F65700E702DB /* FlipView.swift in Sources */,
+				AF7DC18B28166113003341B7 /* Item.swift in Sources */,
+				AF9856DC27FA5E1A00852403 /* StoreView.swift in Sources */,
+				AF2A0FE027F6AFB20035BD68 /* DarkModeSwitch.swift in Sources */,
+				AFBF421D2818E02700E21118 /* ItemView.swift in Sources */,
+				AF3F1DD827F2F28D0077A655 /* PlayButton.swift in Sources */,
+				AF9856F927FAAF2C00852403 /* GemTicker.swift in Sources */,
+				AF9856E227FA91F900852403 /* RewardedAd.swift in Sources */,
+				AFAEE8E227FD333300DA9C06 /* ComplimentView.swift in Sources */,
+				AF9856DF27FA806300852403 /* GemsModel.swift in Sources */,
+				AF7E2FF92802636400065C7A /* GameType.swift in Sources */,
+				AF2B55EA27FAFA2C004A495F /* TextShimmer.swift in Sources */,
+				AF9F741627F2F64C00E702DB /* Shake.swift in Sources */,
+				AFCEE559281231B7009DC2A5 /* SpinWheelView.swift in Sources */,
+				AF9F741227F2F60100E702DB /* UIApplication+Extension.swift in Sources */,
+				AF7DC18928165F7D003341B7 /* SnapCarousel.swift in Sources */,
+				AF98570127FACBF800852403 /* GameTitle.swift in Sources */,
+				AF35D5082806802F000EE521 /* Store.swift in Sources */,
+				AF9F741A27F2F66A00E702DB /* DataModel.swift in Sources */,
+				AF9FECE22820DCA500CEC32B /* ReactionPicker.swift in Sources */,
+				AFBF421F2818E32000E21118 /* ItemPicker.swift in Sources */,
+				AF159F8227F51DA9009C2CD1 /* OpenAd.swift in Sources */,
+				AF9FECCA281FF2A700CEC32B /* DictionaryHandler.swift in Sources */,
+				AFBC70022822A0AC004995B9 /* ItemGroupScroll.swift in Sources */,
+				AF2B55ED27FB008F004A495F /* RollingNumberAnimation.swift in Sources */,
+				AF9F741327F2F60100E702DB /* UIWindow+Extension.swift in Sources */,
+				AF879CB2281BAFB1006403B5 /* SmallButton.swift in Sources */,
+				AF7DC17F2815152D003341B7 /* NeumorphicModifier.swift in Sources */,
+				AF3578A72808E2CA009A1AC7 /* VerifySMS.swift in Sources */,
+				AF79334E281A4DC700786325 /* ItemScroller.swift in Sources */,
+				AF3F1DE227F2F29F0077A655 /* Home.swift in Sources */,
+				AF2A0FDD27F6869D0035BD68 /* Settings.swift in Sources */,
+				AFC97366280BD06B00D5671C /* Leaderboard.swift in Sources */,
+				AF386FCB28040B04006FB392 /* VIPCard.swift in Sources */,
+				AFCEE5552811C24B009DC2A5 /* Tutorial.swift in Sources */,
+				AF3F1DDC27F2F2960077A655 /* KeyBoard.swift in Sources */,
+				AF98570727FAD87900852403 /* Date+Extension.swift in Sources */,
+				AF3578BC28096D3C009A1AC7 /* HorizontalGraph.swift in Sources */,
+				AF9F741E27F2F75700E702DB /* Color+Extension.swift in Sources */,
+				AF3F1DD527F2F2860077A655 /* TabCurve.swift in Sources */,
+				AF92613F28054C6300016D08 /* GemShop.swift in Sources */,
+				AF9FECCC28203E7C00CEC32B /* SwipeIndicator.swift in Sources */,
+				AF7377E62807873D00243E38 /* TabBarV2.swift in Sources */,
+				AF879CB6281BE1BD006403B5 /* RoundPause.swift in Sources */,
+				AF3578AB2808FE68009A1AC7 /* NumberPad.swift in Sources */,
+				AF3F1DE327F2F29F0077A655 /* GameView.swift in Sources */,
+				AF9FECDF28207CF700CEC32B /* 5StarView.swift in Sources */,
+				AFC9736C280E203A00D5671C /* SystemFunctions.swift in Sources */,
+				AF3F1DDD27F2F2960077A655 /* KeyView.swift in Sources */,
+				AF9856E627FA95D100852403 /* FullScreenModifier.swift in Sources */,
+				AF9F740F27F2F5E000E702DB /* Global.swift in Sources */,
+				AFC97368280CDC0F00D5671C /* OffsetModifier.swift in Sources */,
+				AF7DC18F2817D3E2003341B7 /* RewardSpinner.swift in Sources */,
+				AF793352281A622E00786325 /* ItemHScroll.swift in Sources */,
+				AF577ED9280131C800857A5E /* PowerUps.swift in Sources */,
+				AFF87436280E7DE90068A3BF /* Countdown.swift in Sources */,
+				AF35D50A28068D79000EE521 /* SpecialOffer.swift in Sources */,
+				AFCA862B27FD6B8000F8018E /* Statistic.swift in Sources */,
+				AF763260281C9E260046C3FC /* ReactionView.swift in Sources */,
+				AF97660B281F81DD000EB1A5 /* AddShadow.swift in Sources */,
+				AF9856FD27FAB95400852403 /* View+Extension.swift in Sources */,
+				AF7DC18728158DED003341B7 /* Header.swift in Sources */,
+				AF3F1DE427F2F29F0077A655 /* GuessView.swift in Sources */,
+				AF3578B8280932C9009A1AC7 /* Rank.swift in Sources */,
+				AF577EDC280145EA00857A5E /* TimerTillTomorrow.swift in Sources */,
+				AFF8744128113FDB0068A3BF /* MovingLeaderboard.swift in Sources */,
+				AF9F741C27F2F67400E702DB /* PlayerModel.swift in Sources */,
+				AF7FFCF0282222C70080472D /* StoreConstants.swift in Sources */,
+				AF3578A92808EDC6009A1AC7 /* LoginViewModel.swift in Sources */,
+				AF9F740E27F2F5E000E702DB /* GuessModel.swift in Sources */,
+				AF3578B128091D72009A1AC7 /* ChooseUsername.swift in Sources */,
+				AF386FC528027204006FB392 /* adBadge.swift in Sources */,
+				AF879CB4281BD991006403B5 /* Abbreviate.swift in Sources */,
+				AF87B8162823DEC600508CC2 /* GemStoreButtons.swift in Sources */,
+				AFF0A3AF2806C3A9006123EE /* TicketPreview.swift in Sources */,
+				AFF8743C281117950068A3BF /* InterstitialAd.swift in Sources */,
+				AF9F743827F4D17100E702DB /* BannerAd.swift in Sources */,
+				AFF8743A280FB0B50068A3BF /* EndScreen.swift in Sources */,
+				AF702C152804C7DB0097381B /* VIPCardAnimation.swift in Sources */,
+				AF6637C12802429B00D8E536 /* DailyChallenge.swift in Sources */,
+				AFCA863227FE2B7A00F8018E /* DifficultyPicker.swift in Sources */,
+				AF8C936B280542F400FC9421 /* Purchases+Extension.swift in Sources */,
+				AF9FECE42820F88A00CEC32B /* Emote.swift in Sources */,
+				AFF87443281141BF0068A3BF /* RankView.swift in Sources */,
+				AF6637C3280244D600D8E536 /* ButtonShimmer.swift in Sources */,
+				AFDEF0F227FAE127000D1639 /* RewardPopUp.swift in Sources */,
+				AF3578AF28091495009A1AC7 /* Introduction.swift in Sources */,
+				AF3F1DD227F2F2860077A655 /* TabBar.swift in Sources */,
+				AF3F1DC127F2F1EB0077A655 /* ContentView.swift in Sources */,
+				AFCEE55B28123657009DC2A5 /* SpinWheel.swift in Sources */,
+				AFC962C328077A760098CF37 /* StaticSparkle.swift in Sources */,
+				AF3F1DBF27F2F1EB0077A655 /* CoordleGameApp.swift in Sources */,
+				AF569A5028061E9A00D8186F /* PurchaseHandler.swift in Sources */,
+				AFCA1C6427FFF0DD00569DD2 /* BoardSave.swift in Sources */,
+				AFCA1C6B2800032D00569DD2 /* Level.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF3F1DC827F2F1EE0077A655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF3F1DC927F2F1EE0077A655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF3F1DCB27F2F1EE0077A655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D25A9AAFE3F8D2BAFA0171 /* Pods-CoordleGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CoordleGame/Preview Content\"";
+				DEVELOPMENT_TEAM = K477JMN2C2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CoordleGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Furey.CoordleGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF3F1DCC27F2F1EE0077A655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81328698FA1DB2B8652AE129 /* Pods-CoordleGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CoordleGame/Preview Content\"";
+				DEVELOPMENT_TEAM = K477JMN2C2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CoordleGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Furey.CoordleGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF3F1DB627F2F1EB0077A655 /* Build configuration list for PBXProject "CoordleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3F1DC827F2F1EE0077A655 /* Debug */,
+				AF3F1DC927F2F1EE0077A655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3F1DCA27F2F1EE0077A655 /* Build configuration list for PBXNativeTarget "CoordleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3F1DCB27F2F1EE0077A655 /* Debug */,
+				AF3F1DCC27F2F1EE0077A655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF044F9A2805438D00728E09 /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		AF159F8527F566D8009C2CD1 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+		AF35789C2808DE72009A1AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		AF3578A32808DEF7009A1AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		AF3578B228092ED0009A1AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		AF76325C281C9DEB0046C3FC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		AF92613D280548C900016D08 /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		AF9FECD528204D3500CEC32B /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kirualex/SwiftyGif.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF159F8627F566D8009C2CD1 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF159F8527F566D8009C2CD1 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+		AF35789F2808DE72009A1AC7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF35789C2808DE72009A1AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AF3578A42808DEF7009A1AC7 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF3578A32808DEF7009A1AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		AF3578B328092ED0009A1AC7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF3578A32808DEF7009A1AC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AF76325D281C9DEB0046C3FC /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF76325C281C9DEB0046C3FC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		AF9FECD628204D3600CEC32B /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF9FECD528204D3500CEC32B /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF3F1DB327F2F1EB0077A655 /* Project object */;
+}

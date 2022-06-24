@@ -1,0 +1,6 @@
+framework module Pods_CoordleGame {
+  umbrella header "Pods-CoordleGame-umbrella.h"
+
+  export *
+  module * { export * }
+}

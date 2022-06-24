@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>398199903313-38402iq39jhruicghsioq3ggf2a600j7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.398199903313-38402iq39jhruicghsioq3ggf2a600j7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC68KyvERTo9GzSoNkSbKK0NzHLD84mlqc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>398199903313</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Furey.CoordleGame</string>
+	<key>PROJECT_ID</key>
+	<string>coordle</string>
+	<key>STORAGE_BUCKET</key>
+	<string>coordle.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:398199903313:ios:45a6b1d0d6064843791470</string>
+	<key>DATABASE_URL</key>
+	<string>https://coordle-default-rtdb.firebaseio.com</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-6204164666471292~5554305312</string>
+</dict>
+</plist>
