@@ -13,7 +13,6 @@ import AppTrackingTransparency
 struct ContentView: View {
     
     @State var endAnimation = false
-    @State var firstTime = true
     @State var startGame = false
     @StateObject var model = DataModel()
     @StateObject var player = PlayerModel.shared
@@ -27,7 +26,7 @@ struct ContentView: View {
             //add IDFA request window
             
             //add links to bottom of vip
-            // check internet connection manager.≥≥≥≥≥≥≥
+            // check internet connection manager.
             
             //change VIP so that doesnt unlock all customizables >> add like "x4 spins per day"
             
@@ -98,22 +97,6 @@ struct ContentView: View {
         .onAppear {
             configurePurchases()
             openAnimation()
-        }
-    }
-    
-    func openAnimation() {
-        if firstTime {
-            
-            firstTime = false
-        
-//            DispatchQueue.main.asyncAfter(deadline: .now() + 4.5) {
-//            
-//                withAnimation(Animation.easeIn(duration: 1.0)) {
-//                    hideTab.toggle()
-//                
-//                }
-//            }
-            
         }
     }
     
